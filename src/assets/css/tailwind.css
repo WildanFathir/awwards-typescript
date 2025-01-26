@@ -8,14 +8,14 @@
   --font-robert-medium: "robert-medium", "sans-serif";
   --font-robert-regular: "robert-regular", "sans-serif";
 
-  --color-blue-50: "#DFDFF0";
-  --color-blue-75: "#dfdff2";
-  --color-blue-100: "#F0F2FA";
-  --color-blue-200: "#010101";
-  --color-blue-300: "#4FB7DD";
-  --color-violet-300: "#5724ff";
-  --color-yellow-100: "#8e983f";
-  --color-yellow-300: "#edff66";
+  --color-blue-50: oklch(90.87% 0.023 285.93);
+  --color-blue-75: oklch(90.93% 0.0257 285.88);
+  --color-blue-100: oklch(96.19% 0.0109 274.89);
+  --color-blue-200: oklch(6.72% 0 0);
+  --color-blue-300: oklch(73.37% 0.1096 225.45);
+  --color-violet-300: oklch(50.59% 0.28407340292196875 279.69624285125127);
+  --color-yellow-100: oklch(65.29% 0.114 114.98);
+  --color-yellow-300: oklch(95.84% 0.1752 115.45);
 }
 
 @layer base {
