@@ -1,5 +1,15 @@
+import About from "./components/About";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
 const App = () => {
-  return <div className="font-zentry font-bold text-2xl">App</div>;
+  return (
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <Navbar />
+      <Hero />
+      <About />
+    </main>
+  );
 };
 
 export default App;
